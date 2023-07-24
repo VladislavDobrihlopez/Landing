@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    line-height: normal;
+  }
+  
+  :root {
+    /* fonts */
+    --font-roboto: Roboto;
+    --font-futura-pt: "Futura PT";
+  
+    /* font sizes */
+    --font-size-lg: 18px;
+    --font-size-base: 16px;
+    --font-size-29xl: 48px;
+    --font-size-45xl: 64px;
+    --font-size-5xl: 24px;
+    --font-size-3xl: 22px;
+    --font-size-sm: 14px;
+    --font-size-17xl: 36px;
+    --font-size-3xs: 10px;
+    --font-size-xl: 20px;
+    --font-size-13xl: 32px;
+  
+    /* Colors */
+    --color-white: #fff;
+    --color-gray-100: #757575;
+    --color-gray-200: #272727;
+    --color-gray-300: rgba(255, 255, 255, 0.4);
+    --color-burlywood-100: #efc58b;
+    --color-burlywood-200: #e2b67a;
+    --color-gainsboro: #dadada;
+    --color-black: #000;
+    --color-whitesmoke: #ededed;
+    --color-silver-100: #c4c4c4;
+    --color-silver-200: #c2c2c2;
+    --color-darkgray: #959595;
+  
+    /* Gaps */
+    --gap-xl: 20px;
+    --gap-smi: 13px;
+    --gap-4xs: 9px;
+  
+    /* Paddings */
+    --padding-117xl: 136px;
+  }
+  
