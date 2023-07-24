@@ -344,7 +344,7 @@ footer {
 .logo {
     height: 53px;
     width: 258px;
-    background-image: url(/img/moon_river_main_section.png);
+    background-image: url(img/moon_river_main_section.png);
     background-repeat: no-repeat;
     background-size: contain;
 }
@@ -383,7 +383,7 @@ footer {
 .header-container div:nth-child(1) {
     height: 100%;
     width: 18%;
-    background-image: url(/img/nav_like.png);
+    background-image: url(img/nav_like.png);
     background-repeat: no-repeat;
     background-size: contain;
 }
@@ -391,7 +391,7 @@ footer {
 .header-container div:nth-child(2) {
     height: 100%;
     width: 18%;
-    background-image: url(/img/nav_profile.png);
+    background-image: url(img/nav_profile.png);
     background-repeat: no-repeat;
     background-size: contain;
     margin-left: 5%;
@@ -400,7 +400,7 @@ footer {
 .header-container div:nth-child(3) {
     height: 100%;
     width: 18%;
-    background-image: url(/img/nav_groceries.png);
+    background-image: url(img/nav_groceries.png);
     background-repeat: no-repeat;
     background-size: contain;
     margin-left: 5%;
@@ -409,7 +409,7 @@ footer {
 .header-container div:nth-child(4) {
     height: 100%;
     width: 18%;
-    background-image: url(/img/nav_expand_more.png);
+    background-image: url(img/nav_expand_more.png);
     background-repeat: no-repeat;
     background-size: contain;
     position: absolute;
@@ -437,7 +437,7 @@ footer {
 }
 
 .preview .preview-back:nth-child(3) {
-    background-image: url(/img/colco.png);
+    background-image: url(img/colco.png);
     width: 322px;
     height: 170px;
     position: absolute;
@@ -481,7 +481,7 @@ main {
 .male-female-block div:nth-child(1):not(.sex-section-text) {
     height: 98%;
     width: 49.5%;
-    background-image: url(/img/for_man.png);
+    background-image: url(img/for_man.png);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -492,7 +492,7 @@ main {
 .male-female-block div:nth-child(2):not(.sex-section-text) {
     height: 98%;
     width: 49.5%;
-    background-image: url(/img/for_women.png);
+    background-image: url(img/for_women.png);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -521,7 +521,7 @@ main {
 .location div:nth-child(2) {
     height: 604px;
     width: 49.5%;
-    background-image: url(/img/map.png);
+    background-image: url(img/map.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -534,7 +534,7 @@ main {
 
 @media (min-width: 721px) {
     .preview .preview-back:nth-child(3) {
-        background-image: url(/img/colco.png);
+        background-image: url(img/colco.png);
         width: 322px;
         height: 170px;
         position: absolute;
@@ -548,7 +548,7 @@ main {
 
 @media (min-width: 1440px) {
     .preview .preview-back:nth-child(3) {
-        background-image: url(/img/colco.png);
+        background-image: url(img/colco.png);
         width: 322px;
         height: 170px;
         position: absolute;
@@ -581,7 +581,7 @@ main {
 
     .nav-expand-more {
         z-index: 3;
-        background-image: url(/img/Back.svg);
+        background-image: url(img/Back.svg);
         background-repeat: no-repeat;
         background-size: contain;
         width: 18%;
@@ -712,7 +712,7 @@ main {
     .logo {
         height: 53px;
         width: 258px;
-        background-image: url(/img/moon_river_white.svg);
+        background-image: url(img/moon_river_white.svg);
         background-repeat: no-repeat;
         background-size: cover;
         margin: 0;
@@ -729,7 +729,7 @@ main {
     .header-container div:nth-child(1) {
         height: 100%;
         width: 24%;
-        background-image: url(/img/nav_like.png);
+        background-image: url(img/nav_like.png);
         background-repeat: no-repeat;
         background-size: contain;
     }
@@ -737,7 +737,7 @@ main {
     .header-container div:nth-child(2) {
         height: 100%;
         width: 24%;
-        background-image: url(/img/nav_profile.png);
+        background-image: url(img/nav_profile.png);
         background-repeat: no-repeat;
         background-size: contain;
         margin-left: 3%;
@@ -746,7 +746,7 @@ main {
     .header-container div:nth-child(3) {
         height: 100%;
         width: 24%;
-        background-image: url(/img/nav_groceries.png);
+        background-image: url(img/nav_groceries.png);
         background-repeat: no-repeat;
         background-size: contain;
         margin-left: 3%;
@@ -755,7 +755,7 @@ main {
     .header-container div:nth-child(4) {
         height: 100%;
         width: 24%;
-        background-image: url(/img/nav_expand_more.png);
+        background-image: url(img/nav_expand_more.png);
         background-repeat: no-repeat;
         background-size: contain;
         position: static;
@@ -771,7 +771,7 @@ main {
         margin: 0 auto;
         height: 3px;
         width: 150px;
-        background-image: url(/img/line_130.png);
+        background-image: url(img/line_130.png);
         background-repeat: no-repeat;
     }
 
@@ -810,7 +810,7 @@ main {
     .male-female-block div:nth-child(1):not(.sex-section-text) {
         height: 246px;
         width: 99%;
-        background-image: url(/img/for_man.png);
+        background-image: url(img/for_man.png);
         background-repeat: no-repeat;
         background-size: cover;
         display: flex;
@@ -820,7 +820,7 @@ main {
     .male-female-block div:nth-child(2):not(.sex-section-text) {
         height: 246px;
         width: 99%;
-        background-image: url(/img/for_women.png);
+        background-image: url(img/for_women.png);
         background-repeat: no-repeat;
         background-size: cover;
         display: flex;
@@ -847,7 +847,7 @@ main {
     .location div:nth-child(2) {
         height: 98%;
         width: 100%;
-        background-image: url(/img/map.png);
+        background-image: url(img/map.png);
         background-repeat: no-repeat;
         background-position: center center;
         background-size: cover;
@@ -879,11 +879,11 @@ main {
     }
 
     .item:nth-child(2) div:nth-child(1) {
-        background-image: url(/img/item_1.png);
+        background-image: url(img/item_1.png);
     }
 
     .item:nth-child(2) div:nth-child(2) {
-        background-image: url(/img/item_2.png);
+        background-image: url(img/item_2.png);
     }
 
     .item:nth-child(3) div {
@@ -895,11 +895,11 @@ main {
     }
 
     .item:nth-child(3) div:nth-child(1) {
-        background-image: url(/img/item_3.png);
+        background-image: url(img/item_3.png);
     }
 
     .item:nth-child(3) div:nth-child(2) {
-        background-image: url(/img/item_4.png);
+        background-image: url(img/item_4.png);
     }
 
     .last-section {
@@ -987,7 +987,7 @@ main {
     .logo {
         height: 53px;
         width: 258px;
-        background-image: url(/img/moon_river_main_section.png);
+        background-image: url(img/moon_river_main_section.png);
         background-repeat: no-repeat;
         background-size: contain;
     }
@@ -1031,7 +1031,7 @@ main {
     .header-container div:nth-child(2) {
         height: 100%;
         width: 18%;
-        background-image: url(/img/nav_profile.png);
+        background-image: url(img/nav_profile.png);
         background-repeat: no-repeat;
         margin-left: 3%;
     }
@@ -1039,7 +1039,7 @@ main {
     .header-container div:nth-child(3) {
         height: 100%;
         width: 18%;
-        background-image: url(/img/nav_groceries.png);
+        background-image: url(img/nav_groceries.png);
         background-repeat: no-repeat;
         margin-left: 3%;
     }
@@ -1047,7 +1047,7 @@ main {
     .header-container div:nth-child(4) {
         height: 100%;
         width: 18%;
-        background-image: url(/img/nav_expand_more.png);
+        background-image: url(img/nav_expand_more.png);
         background-repeat: no-repeat;
         position: absolute;
         right: 0;
@@ -1077,7 +1077,7 @@ main {
     .male-female-block div:nth-child(1):not(.sex-section-text) {
         height: 587px;
         width: 100%;
-        background-image: url(/img/for_man.png);
+        background-image: url(img/for_man.png);
         background-repeat: no-repeat;
         background-position: center center;
         background-size: cover;
@@ -1088,7 +1088,7 @@ main {
     .male-female-block div:nth-child(2):not(.sex-section-text) {
         height: 587px;
         width: 100%;
-        background-image: url(/img/for_women.png);
+        background-image: url(img/for_women.png);
         background-repeat: no-repeat;
         background-position: center center;
         background-size: cover;
@@ -1124,7 +1124,7 @@ main {
         position: static;
         height: 98%;
         width: 100%;
-        background-image: url(/img/map.png);
+        background-image: url(img/map.png);
         background-repeat: no-repeat;
         background-size: cover;
     }
