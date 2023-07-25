@@ -7,7 +7,7 @@ body {
 }
 
 header {
-    z-index: 4;
+    z-index: 1;
     width: 78%;
     height: 10%;
     position: absolute;
@@ -230,7 +230,7 @@ footer {
     display: flex;
     background-color: #C2C2C2;
     width: 400px;
-    height: 380px;
+    height: 386px;
     align-items: center;
     flex-direction: column;
 }
@@ -251,7 +251,7 @@ footer {
     width: 100%;
     background-color: white;
     display: flex;
-    align-items: center;
+    /* align-items: center; */
     justify-content: center;
     flex-direction: row;
     flex-wrap: wrap;
@@ -261,7 +261,7 @@ footer {
     margin-left: 20px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 17px;
+    gap: 15px;
 }
 
 .item:nth-child(1) {
@@ -287,7 +287,7 @@ footer {
 .social-section-with-slider {
     position: static;
     width: 105%;
-    height: 886px;
+    height: 910px;
     background-color: #272727;
     color: white;
     font-size: 48px;
@@ -431,7 +431,7 @@ footer {
 .preview {
     display: flex;
     width: 100%;
-    height: 110vh;
+    height: 100vh;
     position: relative;
 }
 
@@ -559,6 +559,18 @@ main {
 }
 
 @media (min-width: 1440px) {
+    .item {
+        margin-bottom: 0px;
+    }
+
+    .social-section-header {
+        margin-left: -15px;
+        margin-top: 55px;
+        margin-bottom: 85px;
+    }
+    .preview {
+        height: 104.5vh;
+    }
     .preview .preview-back:nth-child(3) {
         background-image: url(img/colco.png);
         width: 322px;
@@ -573,6 +585,10 @@ main {
 }
 
 @media (max-width:320px) {
+    header {
+        top: 3%;
+    }
+
     .footer-hint-text {
         top: -20%;
         left: 15%;
@@ -592,7 +608,7 @@ main {
     }
 
     .nav-expand-more {
-        z-index: 3;
+        z-index: 9999;
         background-image: url(img/Back.svg);
         background-repeat: no-repeat;
         background-size: contain;
@@ -622,16 +638,26 @@ main {
         height: auto;
     }
 
+    .slider {
+        position: relative;
+        scale: 0.8;
+        right: 30%;
+        width: 335px;
+        height: 29px;
+    }
+
     .social-section-header {
         font-size: 20px;
-        margin-bottom: -12px;
+        margin-left: -15px;
+        margin-top: 16px;
+        margin-bottom:4px;
     }
 
     .social-section-footer {
         margin-top: -10px;
         left: 30%;
         display: flex;
-        gap: 15px;
+        gap: 17px;
         flex-direction: column-reverse;
     }
 
@@ -677,6 +703,7 @@ main {
     }
 
     header {
+        z-index: 1;
         display: flex;
         flex-direction: column-reverse;
         width: 100%;
@@ -818,7 +845,6 @@ main {
         flex-direction: column;
     }
 
-
     .male-female-block div:nth-child(1):not(.sex-section-text) {
         height: 246px;
         width: 99%;
@@ -841,7 +867,7 @@ main {
 
     .location {
         background-color: #272727;
-        height: 79vh;
+        height: 76vh;
         width: 100%;
         display: flex;
         justify-content: space-between;
@@ -850,6 +876,7 @@ main {
     }
 
     .location div:nth-child(1) {
+        max-height: 344px;
         height: 98%;
         width: 100%;
         background-repeat: no-repeat;
@@ -871,7 +898,7 @@ main {
         background-image: url(img/item_5.png);
         background-repeat: no-repeat;
         background-size: contain;
-        background-position: start center;
+        background-position: center;
     }
 
     .item:nth-child(2),
@@ -964,7 +991,9 @@ main {
 
     .small-items-container {
         margin-left: 0px;
+        gap: 17px;
         grid-template-columns: 1fr;
+        padding-bottom: 12px;
     }
 
     .card {
@@ -974,11 +1003,15 @@ main {
         width: 100%;
         box-sizing: content-box;
         margin: 0 auto;
-        padding-bottom: 12px;
+        padding-bottom: 24px;
     }
 }
 
 @media (min-width:321px) and (max-width: 719px) {
+    .social-section-header {
+        margin-bottom: 40px;
+    }
+
     .card {
         padding-top: 14px;
         height: 400px;
@@ -1197,5 +1230,7 @@ main {
         margin-left: -12px;
     }
 
-    
+    .preview {
+        height: 105vh;
+    }
 }
